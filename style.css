@@ -3,9 +3,18 @@
   text-align: left;
   font-family: Georgia, serif;
   width: 70%; 
-  margin: 0%
-  height: 0%
+  margin: 0%; 
+  height: auto; 
   padding: 1%; 
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: auto;
+  padding: 1%;
 }
 
 ul {
@@ -37,4 +46,5 @@ li a:hover {
 .active {
   background-color: blue;
 }
+
 
