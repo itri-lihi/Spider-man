@@ -17,6 +17,17 @@
   padding: 1%;
 }
 
+.images_accueil {
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 0;
+}
+.accueil1, .accueil2, .accueil3, .accueil4 {
+  width: 25%;
+  height: auto;
+  padding: 0.5%;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -46,5 +57,3 @@ li a:hover {
 .active {
   background-color: blue;
 }
-
-
