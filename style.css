@@ -66,7 +66,7 @@ h2 {
   padding: 5%;
 }
 
-.logo {
+#logo {
   height: 8vh;
   width: auto;
   position: absolute;
@@ -74,7 +74,7 @@ h2 {
   left: 2%;
 }
 
-.accueil1 {
+#accueil1 {
   height: 15vh;
   width: auto;
   position: absolute;
@@ -82,7 +82,7 @@ h2 {
   left: 2%;
 }
 
-.accueil2 {
+#accueil2 {
   height: 15vh;
   width: auto;
   position: absolute;
@@ -90,7 +90,7 @@ h2 {
   left: 2%; 
 }
 
-.accueil3 {
+#accueil3 {
   height: 15vh;
   width: auto;
   position: absolute;
@@ -98,7 +98,7 @@ h2 {
   left: 2%;
 }
 
-.accueil4 {
+#accueil4 {
   height: 15vh;
   width: auto;
   positio: absolute;
