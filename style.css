@@ -33,4 +33,33 @@ li a:hover {
   background-color: blue; 
 }
 
+h1 {
+  font-family: Comic-sans;
+  font-size: 40%;
+  color: black;
+  text-align: center; 
+}
+
+h2 {
+  font-family: Comic-sans;
+  font-size: 25%;
+  color: black;
+  text-align: left;
+}
+
+#para1 {
+  font-family: Comic-sans;
+  color: black;
+  font-size: 20%;
+  align: left; 
+  padding: 5%;
+}
+
+#para2 {
+  font-family: Comic-sans;
+  color: black;
+  font-size: 20%;
+  align: left; 
+  padding: 5%;
+}
 
