@@ -1,10 +1,24 @@
-#para1 {
+#para1, #para2 {
   display: block;
   text-align: left;
   font-family: Georgia, serif;
   width: 70%; 
-  margin: 2% auto 0 auto; 
-  padding: 1%; 
+  margin-left: 0%; 
+  margin-top: 0%; 
+  padding: 0%; 
+}
+
+header {
+  display: flex;
+  align-items: center; 
+  padding: 1rem; 
+  background-color: red;
+}
+
+.logo {
+  width: 10%; 
+  height: auto; 
+  max-width: 50px; /* Limite la largeur du logo */
 }
 
 ul {
@@ -14,25 +28,24 @@ ul {
   overflow: hidden;
   background-color: red;
   display: flex; 
-  justify-content: space-around; 
 }
 
 li {
-  flex-grow: 1; 
+  margin-right: 20px; /* Espacement entre les éléments du menu */
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 10px;
   text-decoration: none;
+  padding: 0.5rem 1rem; 
 }
 
 li a:hover {
-  background-color: blue;
+  background-color: blue; /* Changement de couleur au survol */
 }
 
 .active {
-  background-color: blue;
+  background-color: blue; /* Couleur pour l'élément actif */
 }
