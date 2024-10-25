@@ -1,11 +1,10 @@
 #para1 {
   display: block;
   text-align: left;
-  font-family: georgia ;
-  width: 70%;
-  margin-left: 0%;
-  margin-right:50%;
-  margin-top:2%;
+  font-family: Georgia, serif;
+  width: 70%; 
+  margin: 2% auto 0 auto; 
+  padding: 1%; 
 }
 
 ul {
@@ -14,17 +13,19 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: red;
+  display: flex; 
+  justify-content: space-around; 
 }
 
 li {
-  float: left;
+  flex-grow: 1; 
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 5% 10%;
+  padding: 10px;
   text-decoration: none;
 }
 
@@ -33,5 +34,5 @@ li a:hover {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: blue;
 }
