@@ -18,7 +18,7 @@ header {
 .logo {
   width: 10%; 
   height: auto; 
-  max-width: 50px; /* Limite la largeur du logo */
+  max-width: 50px; 
 }
 
 ul {
@@ -31,7 +31,7 @@ ul {
 }
 
 li {
-  margin-right: 20px; /* Espacement entre les éléments du menu */
+  margin-right: 20px; /
 }
 
 li a {
@@ -43,9 +43,9 @@ li a {
 }
 
 li a:hover {
-  background-color: blue; /* Changement de couleur au survol */
+  background-color: blue; 
 }
 
 .active {
-  background-color: blue; /* Couleur pour l'élément actif */
+  background-color: blue; 
 }
