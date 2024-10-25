@@ -1,5 +1,7 @@
 body {
   background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -21,8 +23,9 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 10%;
+  padding: 2% 3%;
   text-decoration: none;
+  font-size: 50%
 }
 
 li a:hover {
@@ -34,37 +37,40 @@ li a:hover {
 }
 
 h1 {
-  font-family: Comic-sans;
-  font-size: 80%;
+  font-family: "Comic sans MS", sans-serif;
+  font-size: 5vw;
   color: black;
   text-align: center; 
 }
 
 h2 {
-  font-family: Comic-sans;
-  font-size: 70%;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 3.5vw;
   color: black;
   text-align: left;
 }
 
 #para1 {
-  font-family: Comic-sans;
+  font-family: "Comic Sans MS", sans-serif;
   color: black;
-  font-size: 60%;
-  align: left; 
+  font-size: 3vw;
+  text-align: left; 
   padding: 5%;
 }
 
 #para2 {
-  font-family: Comic-sans;
+  font-family: "Comic Sans MS", sans-serif;
   color: black;
-  font-size: 60%;
-  align: left; 
+  font-size: 3vw;
+  text-align: left; 
   padding: 5%;
 }
 
-#logo {
-  height: 5%;
-  width: 5%;
+.logo {
+  height: 8vh;
+  width: auto;
+  position: absolute;
+  top: 2%;
+  left: 2%;
 }
 
